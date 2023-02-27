@@ -48,7 +48,7 @@ public class aula24 {
         int b;
 
         a= 5.0;
-        b= (int) a;
+        b= (int) a;  //casting (conversão explicita de tipos de dados)
 
         System.out.println(b);
  */

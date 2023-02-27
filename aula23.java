@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 
-public class exercicio1 {
+public class aula23 {
     /**
      * @param args
      * @throws Exception
