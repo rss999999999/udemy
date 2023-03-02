@@ -1,0 +1,73 @@
+como desfazer modificações não salvas
+
+git status > confiro o status
+git reset > tiro da stage (verde para o vermelho)
+git clean -df  > desfaço toda a merda
+git checkout -- .
+
+
+
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ code .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+        deleted:    vendas.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        blog.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git reset
+Unstaged changes after reset:
+M       index.html
+D       vendas.html
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+        deleted:    vendas.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        blog.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git clean -df
+Removing blog.html
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git checkout -- .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean

@@ -1,0 +1,8 @@
+repositório remoto : Github
+repositório local : meu computador
+
+
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy
+$ git --version
+git version 2.39.1.windows.1

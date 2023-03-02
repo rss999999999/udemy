@@ -1,0 +1,22 @@
+Abriu o editor VIM!!!!
+O agora?
+
+O que pode abrir o VIM no terminal?
+*fazer um commit sem mensagem
+*fazer um merge de três vias
+*git log
+
+O que fazer:
+
+Habilitar o mode de edição:
+i
+
+Sair do CIM, salvando as alterações:
+<ESC>
+:wq
+<ENTER>
+
+Sair do VIM, descartando as alterações:
+<ESC>
+:q!
+<ENTER>

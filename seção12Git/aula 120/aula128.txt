@@ -1,0 +1,35 @@
+$ git log --oneline
+$ git log
+
+
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git log --oneline
+1edf55d (HEAD -> main, origin/main, origin/HEAD) Update blog
+46c4db5 Criada página de blog
+1d228cf Acrescentando valor das vendas
+fc5781e Criadas páginas index e vendas
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git log
+commit 1edf55d8f705e131120c6a80974ecaea96048933 (HEAD -> main, origin/main, origin/HEAD)
+Author: Rodrigo <rss.999999999@gmail.com>
+Date:   Sat Feb 25 16:53:57 2023 -0300
+
+    Update blog
+
+commit 46c4db5a3364ecc7cd7709ef1f6848af2b5ef360
+Author: Rodrigo <rss.999999999@gmail.com>
+Date:   Sat Feb 25 16:49:16 2023 -0300
+
+    Criada página de blog
+
+commit 1d228cf512cada444fb5bed01f7507aa8d9bb80d
+Author: Rodrigo <rss.999999999@gmail.com>
+Date:   Fri Feb 24 18:47:07 2023 -0300
+
+    Acrescentando valor das vendas
+
+commit fc5781ef3725b726d7d454331ebb4a45e2c6b8e3
+Author: Rodrigo <rss.999999999@gmail.com>
+Date:   Fri Feb 24 16:38:19 2023 -0300

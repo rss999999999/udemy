@@ -1,0 +1,4 @@
+remover arquivos da área do stage
+
+git status
+git reset

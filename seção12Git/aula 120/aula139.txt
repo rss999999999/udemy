@@ -1,0 +1,6 @@
+Como atualizar o repositório local em relação ao remoto:
+git status
+git pull <nome do remote> <nome do branch>
+
+pode dar treta e ter que fazer um merge!!!
+A treta é que os arquivos podem estarem muuuuuuuito diferentes!!!!!

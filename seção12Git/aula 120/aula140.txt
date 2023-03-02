@@ -1,0 +1,20 @@
+Como resolver push rejeitado?
+
+Não é permitido enviar um push se seu repositório local está atrasado em
+relação ao histórico do repositório remoto!
+
+vc tem que atualizar o repositório local:
+git pull <nome do remote> <nome do branch>
+
+
+Fiz o clone, logo em seguida,
+Foi criado um README.md no Github
+Fiz 2 alterações no projeto!!!
+Fiz o git add .
+Fiz o git commit -m ""
+Quando fui fazer o push deu erro!!!!
+Para resolver o erro eu devo trazer o README.md do Github para minha pasta local
+Para fazer isso devo fazer:
+git pull origin main
+Em seguida:
+git push e VOOOOOOOOOOOO À LÁ!!!! DEU CERTO!!!!!

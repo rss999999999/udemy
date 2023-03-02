@@ -1,0 +1,119 @@
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127
+$ git clone git@github.com:rss999999999/aulagithub.git
+Cloning into 'aulagithub'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+Receiving objects: 100% (7/7), done.
+Resolving deltas: 100% (2/2), done.
+remote: Total 7 (delta 2), reused 7 (delta 2), pack-reused 0
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127
+$ cd aulagithub/
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ code .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ code .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        blog.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git add .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git commit -m "Criada página de blog"
+[main 46c4db5] Criada página de blog
+ 1 file changed, 13 insertions(+)
+ create mode 100644 blog.html
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git log
+commit 46c4db5a3364ecc7cd7709ef1f6848af2b5ef360 (HEAD -> main)
+Author: Rodrigo <rss.999999999@gmail.com>
+Date:   Sat Feb 25 16:49:16 2023 -0300
+
+    Criada página de blog
+
+commit 1d228cf512cada444fb5bed01f7507aa8d9bb80d (origin/main, origin/HEAD)
+Author: Rodrigo <rss.999999999@gmail.com>
+Date:   Fri Feb 24 18:47:07 2023 -0300
+
+    Acrescentando valor das vendas
+
+commit fc5781ef3725b726d7d454331ebb4a45e2c6b8e3
+Author: Rodrigo <rss.999999999@gmail.com>
+Date:   Fri Feb 24 16:38:19 2023 -0300
+
+    Criadas páginas index e vendas
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ code .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   blog.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git add .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git commit -m "Update blog"
+[main 1edf55d] Update blog
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git log
+commit 1edf55d8f705e131120c6a80974ecaea96048933 (HEAD -> main)
+Author: Rodrigo <rss.999999999@gmail.com>
+Date:   Sat Feb 25 16:53:57 2023 -0300
+
+    Update blog
+
+commit 46c4db5a3364ecc7cd7709ef1f6848af2b5ef360
+Author: Rodrigo <rss.999999999@gmail.com>
+Date:   Sat Feb 25 16:49:16 2023 -0300
+
+    Criada página de blog
+
+commit 1d228cf512cada444fb5bed01f7507aa8d9bb80d (origin/main, origin/HEAD)
+Author: Rodrigo <rss.999999999@gmail.com>
+Date:   Fri Feb 24 18:47:07 2023 -0300
+
+    Acrescentando valor das vendas
+
+commit fc5781ef3725b726d7d454331ebb4a45e2c6b8e3
+Author: Rodrigo <rss.999999999@gmail.com>
+Date:   Fri Feb 24 16:38:19 2023 -0300
+
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 863 bytes | 863.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:rss999999999/aulagithub.git
+   1d228cf..1edf55d  main -> main

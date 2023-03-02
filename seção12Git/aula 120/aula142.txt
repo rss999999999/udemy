@@ -1,0 +1,10 @@
+Sobrescrever um histórico no Github
+git push -f <nome do remote> <nome do branch>
+
+ATENÇÃO: ação destrutiva!!!!!!!!
+
+Aqui posso perder todos os comit que fiz....
+git reset --hard<0dfefasd)
+HEAD >>>>> vai lá pra o início!!!
+git push -f
+perdi todos os commits no Github

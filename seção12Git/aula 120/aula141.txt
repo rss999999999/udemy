@@ -1,0 +1,23 @@
+RESOLVENDO CONFLITO
+
+analise o código fonte
+faça as edições necessárias
+faça um novo commits
+
+
+Meu colega alterou o file vendas.html diretamente no Github
+Eu alterei no VScode o mesmo arquivo
+
+Dei o git add .
+Dps git commit -m ""
+Em seguida git push
+
+Aew percebi que ele alterou o mesmo arquivo que eu alterei!!
+Tenho que abrir o vscode e averiguar qual dos códigos estão corretos e salvar dentro do VScode para em seguida fazer novamente:
+
+Dei o git add .
+Dps git commit -m ""
+Em seguida git push
+
+No GitHub o HEAD será o meu arquivo!!!
+Abaixo dele estará o histórico do arquivo que meu colega modificou (vendas.html)

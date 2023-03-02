@@ -1,0 +1,199 @@
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sobre.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    blog.html
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sobre.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git add .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+        renamed:    blog.html -> sobre.html
+
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git reset
+Unstaged changes after reset:
+D       blog.html
+M       index.html
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    blog.html
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sobre.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git add .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    blog.html
+        modified:   index.html
+        new file:   sobre.html
+
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git reset
+Unstaged changes after reset:
+D       blog.html
+M       index.html
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    blog.html
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sobre.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git add sobre.html
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   sobre.html
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    blog.html
+        modified:   index.html
+
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git commit -m "Adicionado arquivo sobre"
+[main 7767e27] Adicionado arquivo sobre
+ 1 file changed, 7 insertions(+)
+ create mode 100644 sobre.html
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ gist status
+bash: gist: command not found
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    blog.html
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git add .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git commit -m "Deletado blog, update index"
+[main 3c1cca9] Deletado blog, update index
+ 2 files changed, 1 insertion(+), 15 deletions(-)
+ delete mode 100644 blog.html
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git log --oneline
+3c1cca9 (HEAD -> main) Deletado blog, update index
+7767e27 Adicionado arquivo sobre
+1edf55d (origin/main, origin/HEAD) Update blog
+46c4db5 Criada página de blog
+1d228cf Acrescentando valor das vendas
+fc5781e Criadas páginas index e vendas
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 127/aulagithub (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 711 bytes | 711.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:rss999999999/aulagithub.git
+   1edf55d..3c1cca9  main -> main

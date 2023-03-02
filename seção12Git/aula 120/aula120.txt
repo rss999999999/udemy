@@ -1,0 +1,6 @@
+AULA 123
+
+Configuração para ver arquivos ocultos (Windows)
+Iniciar -> Opções do explorador de arquivos
+DESMARCAR: "Ocultar as extensões dos tipos de arquivos conhecidos"
+MARCAR: "Mostrar arquivos, pastas e unidades ocultas"

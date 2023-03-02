@@ -1,0 +1,71 @@
+AULA 125 (Salvando a primeira versão de um projeto no GitHub)
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas
+$ ls
+index.html  vendas.html
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas
+$ git init
+Initialized empty Git repository in C:/temp/ws-java/src/udemy/aula 120/site-de-vendas/.git/
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (master)
+$ git add .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   vendas.html
+
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (master)
+$ git commit -m "Criadas páginas index e vendas"
+[master (root-commit) fc5781e] Criadas páginas index e vendas
+ 2 files changed, 26 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 vendas.html
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (master)
+$ git branch -M main
+
+O comando git branch -M main é usado para renomear a branch atual do repositório Git para main.
+A opção -M é usada para forçar a renomeação da branch, caso já exista uma branch chamada main no repositório.
+O uso do nome main em vez de master para a branch principal do repositório é uma prática recomendada para
+evitar termos com conotações racistas e coloniais. Muitas comunidades de desenvolvimento de software estão
+migrando para o uso do termo main em vez de master.
+Por padrão, quando você cria um novo repositório Git, a branch principal é chamada de master. Para renomear
+a branch principal para main, você precisa primeiro renomear a branch atual do repositório para main usando
+o comando git branch -M main, como mencionado anteriormente. Em seguida, você pode definir a branch main como
+a branch padrão do repositório usando o comando git branch -u origin/main. Isso fará com que a branch main seja
+definida como a branch padrão para todas as operações de pull e push.
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (main)
+$ git remote add origin git@github.com:rss999999999/aulagithub.git
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (main)
+$ git push -u origin main
+The authenticity of host 'github.com (20.201.28.151)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 583 bytes | 583.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To github.com:rss999999999/aulagithub.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.

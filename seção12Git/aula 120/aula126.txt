@@ -1,0 +1,50 @@
+AULA 126 (Salvando um novo commit)
+
+Nessa aula altero o arquivo venda.html
+add . >>> coloco no stage
+push   >>>> depois de colocar no stage dou um push e mando para o GitHub
+
+
+___________________________________________________________________________________________
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   vendas.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (main)
+$ git add .
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   vendas.html
+
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (main)
+$ git commit -m "Acrescentando valor das vendas"
+[main 1d228cf] Acrescentando valor das vendas
+ 1 file changed, 1 insertion(+)
+
+Rodrigo@DESKTOP-H6RV53V MINGW64 /c/temp/ws-java/src/udemy/aula 120/site-de-vendas (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 344 bytes | 344.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:rss999999999/aulagithub.git
+   fc5781e..1d228cf  main -> main
