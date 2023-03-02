@@ -27,7 +27,7 @@ public class aula23 {
 
         String x;
         x = sc.next();
-		System.out.printf("\nDigite um némero: ")
+		System.out.printf("\nDigite um némero: ");
         System.out.println("Você digitou: "+x);   //sysout e tab
         
         sc.close();}

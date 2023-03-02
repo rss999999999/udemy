@@ -28,7 +28,7 @@ public class aula25 {
         int b;
         double c;
 
-        a = sc.next();
+        a = sc.next();                  //ler apenas um string!!! para ler a frase inteira: .nextLine();
         b = sc.nextInt();
         c = sc.nextDouble();
         System.out.println("Dados digitados:");
