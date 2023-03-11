@@ -32,6 +32,11 @@
 		 Scanner sc = new Scanner(System.in);
 		 float minutos;
 		 float conta;
+
+		 if (conta>100 || minutos>100)
+
+		 if (conta>100 | minutos>100)
+
  
 		 System.out.println("Digite os minutos utilizados: ");
 		 minutos = sc.nextFloat();        

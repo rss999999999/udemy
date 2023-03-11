@@ -23,7 +23,9 @@ public class aula26_3 {
 
         x = sc.nextInt();
         sc.nextLine();              //qndo aperto enter ele consome a linha (1)
-        System.out.println(s1);
+        System.out.println(
+            
+        );
         s1 = sc.nextLine();          //sc.next() só vai ler a primeira palavra, e não a linha inteira
         s2 = sc.nextLine();
         s3 = sc.nextLine();
